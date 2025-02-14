@@ -1,0 +1,33 @@
+body {
+    background-color: #001f3f; /* Deep blue background */
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #4da6ff;
+}
+
+button {
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#game-container {
+    display: none;
+    text-align: center;
+}
+
+canvas {
+    background-color: white;
+    border: 2px solid #0074D9;
+}
